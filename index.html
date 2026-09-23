@@ -1,13 +1,175 @@
 <!DOCTYPE html>
-
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube da Luta — Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Meu blog tech</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">CLUBE<span>DA</span>LUTA</div>
+
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#regras">Regras</a></li>
+                <li><a href="#manifesto">Manifesto</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <button id="menuBtn">☰</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <p class="tag">BLOG • SUBTERRÂNEO • URBANO</p>
+
+                <h1>
+                    VOCÊ NÃO FALA<br>
+                    <span>SOBRE O CLUBE.</span>
+                </h1>
+
+                <p class="description">
+                    Um espaço para discutir o filme, seus personagens,
+                    simbolismos, filosofia e a crítica à sociedade de consumo.
+                </p>
+
+                <a href="#manifesto" class="btn">ENTRAR NO CLUBE</a>
+            </div>
+
+            <div class="hero-image">
+                <div class="circle"></div>
+                <div class="warning">FIGHT<br>CLUB</div>
+            </div>
+        </section>
+
+        <section class="rules" id="regras">
+            <div class="section-title">
+                <span>01</span>
+                <h2>AS REGRAS</h2>
+            </div>
+
+            <div class="rules-grid">
+                <article>
+                    <span>01</span>
+                    <h3>Primeira regra</h3>
+                    <p>Você não fala sobre o Clube da Luta.</p>
+                </article>
+
+                <article>
+                    <span>02</span>
+                    <h3>Segunda regra</h3>
+                    <p>Você NÃO fala sobre o Clube da Luta.</p>
+                </article>
+
+                <article>
+                    <span>03</span>
+                    <h3>Terceira regra</h3>
+                    <p>Quando alguém disser pare, a luta termina.</p>
+                </article>
+
+                <article>
+                    <span>04</span>
+                    <h3>Quarta regra</h3>
+                    <p>Duas pessoas por luta. Uma luta de cada vez.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="manifesto" id="manifesto">
+            <div class="manifesto-text">
+                <p class="tag">O MANIFESTO</p>
+
+                <h2>
+                    NÃO SOMOS<br>
+                    <span>NOSSAS COISAS.</span>
+                </h2>
+
+                <p>
+                    O Clube da Luta pode ser interpretado como uma crítica
+                    à busca incessante por identidade através do consumo,
+                    do trabalho e do status.
+                </p>
+
+                <p>
+                    Mais do que uma história sobre confrontos físicos,
+                    a obra explora identidade, alienação, masculinidade,
+                    liberdade e a necessidade de romper com uma vida
+                    considerada vazia.
+                </p>
+
+                <button class="quote-btn" id="quoteBtn">
+                    MOSTRAR FRASE
+                </button>
+
+                <p class="quote" id="quote"></p>
+            </div>
+
+            <div class="manifesto-card">
+                <div class="card-noise"></div>
+                <h3>PROJECT<br>MAYHEM</h3>
+                <p>QUESTION EVERYTHING</p>
+            </div>
+        </section>
+
+        <section class="articles">
+            <div class="section-title">
+                <span>02</span>
+                <h2>ARTIGOS</h2>
+            </div>
+
+            <div class="articles-grid">
+
+                <article class="post">
+                    <div class="post-number">01</div>
+                    <p class="tag">CINEMA</p>
+                    <h3>O significado por trás do Clube da Luta</h3>
+                    <p>
+                        Uma análise dos principais temas e símbolos
+                        presentes na obra.
+                    </p>
+                    <a href="#">LER ARTIGO →</a>
+                </article>
+
+                <article class="post">
+                    <div class="post-number">02</div>
+                    <p class="tag">PERSONAGENS</p>
+                    <h3>Tyler Durden e a busca pela liberdade</h3>
+                    <p>
+                        Uma análise do personagem e de sua influência
+                        sobre o protagonista.
+                    </p>
+                    <a href="#">LER ARTIGO →</a>
+                </article>
+
+                <article class="post">
+                    <div class="post-number">03</div>
+                    <p class="tag">FILOSOFIA</p>
+                    <h3>Consumismo e identidade</h3>
+                    <p>
+                        Como a obra questiona a relação entre pessoas,
+                        objetos e identidade.
+                    </p>
+                    <a href="#">LER ARTIGO →</a>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contato">
+        <div class="footer-logo">CLUBE DA LUTA</div>
+        <p>Um blog sobre cinema, identidade e sociedade.</p>
+        <p class="copyright">© 2026 — Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
